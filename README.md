@@ -12,8 +12,7 @@ Different preset .wav files can be compared using musicg (https://code.google.co
 
 As of right now, the implementation is such that the robot has to check which preset sound most matches the input, then it displays the color that best corresponds to the sound.
 
-Unfortunely, because of some deprecation issues, the similarity score is unable to produce a definite result sometimes: https://stackoverflow.com/questions/71705980/class-test-in-unnamed-module-0x33f88ab-cannot-access-class-com-sun-media-soun
-I have tried changing the way the audio is compared by using different methods from the library but have yet to reach a concrete solution in which the comparison delivers a finite response. Maybe a different, more maintained library is necessary?
+Unfortunely, because of some deprecation issues, the similarity score is unable to produce a definite result sometimes: https://stackoverflow.com/questions/71705980/class-test-in-unnamed-module-0x33f88ab-cannot-access-class-com-sun-media-soun. I have tried changing the way the audio is compared by using different methods from the library but have yet to reach a concrete solution in which the comparison delivers a finite response. Maybe a different, more maintained library is necessary?
 
 The robot changes the LED it displays based sound it hears's resemblance to the given preset sounds:
   1. Note A1: red
